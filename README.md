@@ -4,7 +4,10 @@ Back end API development in Slim Micro framework
 Uma simples api com um CRUD de carros desenvolvido com Slim Framework.
 
 Após clonar o projeto rodar o seguinte comando:
-$ composer update ou composer install para baixar as dependências do Slim.
+
+$ composer update ou composer install 
+
+para baixar as dependências do Slim.
 
 Crie a seguinte tabela:
 
@@ -18,10 +21,13 @@ CREATE TABLE `cars` (
 
 Para rodar a aplicação utilizei o próprio servidor do PHP na porta 8000.
 Com o comando via terminal:
+
 $ php -S localhost:8000
 
 Utilizei para teste de Rest uma excelente extensão do chrome.
 
 Chama-se Postman.
+
+https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
 
 Até o momento não fiz nenhuma integração com front-end mas isso é possível seja com JQuery, angular, Nodejs ou qualquer outra tecnologia de front.
