@@ -2,81 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d63c10d-a338-44b8-b4b7-963a91476da9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/api-slim.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/phpcsmd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Environment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/Pass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/Stop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Helper/Set.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Cookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Headers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Util.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/LogWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Middleware/ContentTypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Middleware/Flash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Middleware/MethodOverride.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Middleware/SessionCookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Slim.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/EnvironmentTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Foo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Helper/SetTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Http/CookiesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Http/HeadersTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Http/RequestTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Http/ResponseTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Http/UtilTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/LogTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/LogWriterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/ContentTypesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/FlashTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/MethodOverrideTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/PrettyExceptionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/Middleware/SessionCookieTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/MiddlewareTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/RouteTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/RouterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/SlimTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/ViewTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/slim/slim/tests/templates/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/phpcsmd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +21,20 @@
     <leaf>
       <file leaf-file-name="Car.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/Car.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -101,6 +46,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/controllers/Car.php" />
       </list>
     </option>
   </component>
@@ -109,6 +56,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -128,6 +78,11 @@
             <path>
               <item name="api-slim" type="b2602c69:ProjectViewProjectNode" />
               <item name="api-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api-slim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -167,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516987581497</updated>
-      <workItem from="1516987582851" duration="1347000" />
+      <workItem from="1516987582851" duration="2072000" />
     </task>
     <task id="LOCAL-00001" summary="Update the README with all orientations and step by step for to run aplication.">
       <created>1516988293316</created>
@@ -183,14 +138,22 @@
       <option name="project" value="LOCAL" />
       <updated>1516988555862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uploading all the project.">
+      <created>1516989070461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516989070461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1347000" />
+    <option name="totallyTimeSpent" value="2072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1315" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.165019" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -221,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update the README with all orientations and step by step for to run aplication." />
     <MESSAGE value="Inserted link chrome for download Postman." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserted link chrome for download Postman." />
+    <MESSAGE value="Uploading all the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading all the project." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -234,8 +198,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Car.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

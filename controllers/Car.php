@@ -1,28 +1,30 @@
 <?php
 namespace controllers
 {
-	/*
-	Classe pessoa
-	*/
+    /**
+     * Class Car
+     * @package controllers
+     */
 	class Car
 	{
-		//Atributo para banco de dados
+        /**
+         * @var \PDO
+         */
 		private $PDO;
 
-		/*
-		__construct
-		Conectando ao banco de dados
-		*/
+        /**
+         * Car constructor.
+         */
 		function __construct()
 		{
 			$this->PDO = new \PDO('mysql:host=localhost;dbname=test-dev-db', 'root', 'root'); //Conexão
 			$this->PDO->setAttribute( \PDO::ATTR_ERRMODE,\PDO::ERRMODE_EXCEPTION ); //habilitando erros do PDO
 		}
-		/*
-		lista
-		Listand pessoas
-		*/
-		public function lista()
+
+        /**
+         * TODO render the list
+         */
+		public function list()
 		{
 			global $app;
 			$sth = $this->PDO->prepare("SELECT * FROM cars");
@@ -31,11 +33,10 @@ namespace controllers
 			$app->render('default.php',["data"=>$result],200); 
 		}
 
-		/*
-		get
-		param $id
-		Pega pessoa pelo id
-		*/
+        /**
+         * @param $id
+         * TODO search a car by ID
+         */
 		public function get($id)
 		{
 			global $app;
@@ -46,34 +47,30 @@ namespace controllers
 			$app->render('default.php',["data"=>$result],200); 
 		}
 
-		/*
-		nova
-		Cadastra pessoa
-		*/
-		public function nova()
+        /**
+         * TODO create a new car
+         */
+		public function add()
 		{
 			global $app;
 			$data = json_decode($app->request->getBody(), true);
 			$data = (sizeof($data)==0)? $_POST : $data;
 			$keys = array_keys($data); //Paga as chaves do array
-			/*
-			O uso de prepare e bindValue é importante para se evitar SQL Injection
-			*/
+
 			$sth = $this->PDO->prepare("INSERT INTO cars (".implode(',', $keys).") VALUES (:".implode(",:", $keys).")");
 			foreach ($data as $key => $value) {
 				$sth ->bindValue(':'.$key,$value);
 			}
 			$sth->execute();
-			//Retorna o id inserido
+
 			$app->render('default.php',["data"=>['id'=>$this->PDO->lastInsertId()]],200); 
 		}
 
-		/*
-		editar
-		param $id
-		Editando pessoa
-		*/
-		public function editar($id)
+        /**
+         * @param $id
+         * TODO update a car by ID
+         */
+		public function edit($id)
 		{
 			global $app;
 			$data = json_decode($app->request->getBody(), true);
@@ -88,16 +85,15 @@ namespace controllers
 			foreach ($data as $key => $value) {
 				$sth ->bindValue(':'.$key,$value);
 			}
-			//Retorna status da edição
+
 			$app->render('default.php',["data"=>['status'=>$sth->execute()==1]],200); 
 		}
 
-		/*
-		excluir
-		param $id
-		Excluindo pessoa
-		*/
-		public function excluir($id)
+        /**
+         * @param $id
+         * TODO delete a car by ID
+         */
+		public function delete($id)
 		{
 			global $app;
 			$sth = $this->PDO->prepare("DELETE FROM cars WHERE id = :id");

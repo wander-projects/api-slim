@@ -2,35 +2,35 @@
 //Autoload
 $loader = require 'vendor/autoload.php';
 
-//Instanciando objeto
+//Instantianing the object
 $app = new \Slim\Slim(array(
     'templates.path' => 'templates'
 ));
 
-//Listando todas
+//Listing all cars
 $app->get('/cars/', function() use ($app){
-	(new \controllers\Car($app))->lista();
+	(new \controllers\Car($app))->list();
 });
 
-//get pessoa
+//get a car
 $app->get('/cars/:id', function($id) use ($app){
 	(new \controllers\Car($app))->get($id);
 });
 
-//nova pessoa
+//create new car
 $app->post('/cars/', function() use ($app){
-	(new \controllers\Car($app))->nova();
+	(new \controllers\Car($app))->add();
 });
 
-//edita pessoa
+//edit a car
 $app->put('/cars/:id', function($id) use ($app){
-	(new \controllers\Car($app))->editar($id);
+	(new \controllers\Car($app))->edit($id);
 });
 
-//apaga pessoa
+//delete a car
 $app->delete('/cars/:id', function($id) use ($app){
-	(new \controllers\Car($app))->excluir($id);
+	(new \controllers\Car($app))->delete($id);
 });
 
-//Rodando aplicação
+//Run application
 $app->run();
